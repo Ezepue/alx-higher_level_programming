@@ -158,6 +158,7 @@ int check_cycle(listint_t *list);
 
 #endif /* LISTS_H */
 ```
+
 ```
 carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
 #include <stdio.h>
@@ -280,6 +281,7 @@ int main(void)
     return (0);
 }
 ```
+
 ```
 carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
 carrie@ubuntu:~/0x00$$ ./cycle 
@@ -325,4 +327,5 @@ Write the Python function def magic_calculation(a, b): that does exactly the sam
              10 BINARY_ADD
              11 RETURN_VALUE
 ```
+
 Tip: Python bytecode
