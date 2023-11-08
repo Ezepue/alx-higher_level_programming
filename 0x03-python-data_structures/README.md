@@ -1,7 +1,8 @@
-0x03. Python - Data Structures: Lists, Tuples
+# 0x03. Python - Data Structures: Lists, Tuples
 
-Tasks
-0. Print a list of integers
+## Tasks
+
+## 0. Print a list of integers
 
 Write a function that prints all integers of a list.
 
@@ -12,7 +13,7 @@ You can assume that the list only contains integers
 You are not allowed to cast integers into strings
 You have to use str.format() to print integers
 
-1. Secure access to an element in a list
+## 1. Secure access to an element in a list
 
 Write a function that retrieves an element from a list like in C.
 
@@ -22,7 +23,7 @@ If idx is out of range (> of number of element in my_list), the function should 
 You are not allowed to import any module
 You are not allowed to use try/except
 
-2. Replace element
+## 2. Replace element
 
 Write a function that replaces an element of a list at a specific position (like in C).
 
@@ -32,7 +33,7 @@ If idx is out of range (> of number of element in my_list), the function should 
 You are not allowed to import any module
 You are not allowed to use try/except
 
-3. Print a list of integers... in reverse!
+## 3. Print a list of integers... in reverse!
 
 Write a function that prints all integers of a list, in reverse order.
 
@@ -43,7 +44,7 @@ You can assume that the list only contains integers
 You are not allowed to cast integers into strings
 You have to use str.format() to print integers
 
-4. Replace in a copy
+## 4. Replace in a copy
 
 Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 
@@ -53,7 +54,7 @@ If idx is out of range (> of number of element in my_list), the function should 
 You are not allowed to import any module
 You are not allowed to use try/except
 
-5. Can you C me now?
+## 5. Can you C me now?
 
 Write a function that removes all characters c and C from a string.
 
@@ -62,7 +63,7 @@ The function should return the new string
 You are not allowed to import any module
 You are not allowed to use str.replace()
 
-6. Lists of lists = Matrix
+## 6. Lists of lists = Matrix
 
 Write a function that prints a matrix of integers.
 
@@ -73,7 +74,7 @@ You can assume that the list only contains integers
 You are not allowed to cast integers into strings
 You have to use str.format() to print integers
 
-7. Tuples addition
+## 7. Tuples addition
 
 Write a function that adds 2 tuples.
 
@@ -86,7 +87,7 @@ You can assume that the two tuples will only contain integers
 If a tuple is smaller than 2, use the value 0 for each missing integer
 If a tuple is bigger than 2, use only the first 2 integers
 
-8. More returns!
+## 8. More returns!
 
 Write a function that returns a tuple with the length of a string and its first character.
 
@@ -94,7 +95,7 @@ Prototype: def multiple_returns(sentence):
 If the sentence is empty, the first character should be equal to None
 You are not allowed to import any module
 
-9. Find the max
+## 9. Find the max
 
 Write a function that finds the biggest integer of a list.
 
@@ -104,7 +105,7 @@ You can assume that the list only contains integers
 You are not allowed to import any module
 You are not allowed to use the builtin max()
 
-10. Only by 2
+## 10. Only by 2
 
 Write a function that finds all multiples of 2 in a list.
 
@@ -113,7 +114,7 @@ Return a new list with True or False, depending on whether the integer at the sa
 The new list should have the same size as the original list
 You are not allowed to import any module
 
-11. Delete at
+## 11. Delete at
 
 Write a function that deletes the item at a specific position in a list.
 
@@ -122,7 +123,7 @@ If idx is negative or out of range, nothing change (returns the same list)
 You are not allowed to use pop()
 You are not allowed to import any module
 
-12. Switch
+## 12. Switch
 
 Complete the source code in order to switch value of a and b
 
@@ -130,7 +131,7 @@ You can find the source code here
 Your code should be inserted where the comment is (line 4)
 Your program should be exactly 5 lines long
 
-13. Linked list palindrome
+## 13. Linked list palindrome
 
 Technical interview preparation:
 
@@ -307,7 +308,7 @@ Linked list is a palindrome
 carrie@ubuntu:0x03$
 ```
 
-14. CPython #0: Python lists
+## 14. CPython #0: Python lists
 
 CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
 Since we now know a bit of C, we can look at what is happening under the hood of Python. Let’s have fun with Python and C, and let’s look at what makes Python so easy to use.
@@ -320,4 +321,3 @@ Format: see example
 Python version: 3.4
 Your shared library will be compiled with this command line: gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
 OS: Ubuntu 14.04 LTS
-

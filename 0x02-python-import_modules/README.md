@@ -1,6 +1,8 @@
-0x02. Python - import & modules
-Tasks
-0. Import a simple function from a simple file
+# 0x02. Python - import & modules
+
+## Tasks
+
+## 0. Import a simple function from a simple file
 
 Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
 
@@ -15,7 +17,7 @@ You can only use the word add_0 once in your code
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported - by using __import__, like the example below
 
-1. My first toolbox!
+## 1. My first toolbox!
 
 Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
 
@@ -30,7 +32,7 @@ the word calculator_1 should be used only once in your file
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported
 
-2. How to make a script dynamic!
+## 2. How to make a script dynamic!
 
 Write a program that prints the number of and the list of its arguments.
 
@@ -44,7 +46,7 @@ Your code should not be executed when imported
 The number of elements of argv can be retrieved by using: len(argv)
 You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them
 
-3. Infinite addition
+## 3. Infinite addition
 
 Write a program that prints the result of the addition of all arguments
 
@@ -52,7 +54,7 @@ The output should be the result of the addition of all arguments, followed by a 
 You can cast arguments into integers by using int() (you can assume that all arguments can be casted into integers)
 Your code should not be executed when imported
 
-4. Who are you?
+## 4. Who are you?
 
 Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
 
@@ -61,14 +63,14 @@ You should print only names that do not start with __
 Your code should not be executed when imported
 Make sure you are running your code in Python3.8.x (hidden_4.pyc has been compiled with this version)
 
-5. Everything can be imported
+## 5. Everything can be imported
 
 Write a program that imports the variable a from the file variable_load_5.py and prints its value.
 
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported
 
-6. Build my own calculator!
+## 6. Build my own calculator!
 
 Write a program that imports all functions from the file calculator_1.py and handles basic operations.
 
@@ -89,16 +91,17 @@ The result should be printed like this: <a> <operator> <b> = <result>, followed 
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported
 
-7. Easy print
+## 7. Easy print
 
 Write a program that prints #pythoniscool, followed by a new line, in the standard output.
 
 Your program should be maximum 2 lines long
 You are not allowed to use print or eval or open or import sys in your file 101-easy_print.py
 
-8. ByteCode -> Python #3
+## 8. ByteCode -> Python #3
 
 Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
 ```
   3           0 LOAD_CONST               1 (0)
               3 LOAD_CONST               2 (('add', 'sub'))
@@ -149,7 +152,7 @@ Write the Python function def magic_calculation(a, b): that does exactly the sam
             110 RETURN_VALUE
 ```
 
-9. Fast alphabet
+## 9. Fast alphabet
 
 Write a program that prints the alphabet in uppercase, followed by a new line.
 
@@ -160,4 +163,3 @@ any conditional statements
 str.join()
 any string literal
 any system calls
-
