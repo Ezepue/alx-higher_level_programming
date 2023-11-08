@@ -89,6 +89,7 @@ You are not allowed to use string literals
 Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 
 Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
+
 ```
 guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
 The Zen of Python, by Tim Peters
@@ -223,7 +224,8 @@ void free_listint(listint_t *head)
         head = head->next;
         free(current);
     }
-}```
+}
+```
 
 ```
 carrie@ubuntu:~/0x00$ cat 10-main.c
